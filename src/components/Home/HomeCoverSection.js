@@ -6,7 +6,7 @@ import Tag from '../Elements/Tag';
 
 const HomeCoverSection = ({ blogs }) => {
    const sortedBlogs = sortBlogs(blogs);
-   const blog = sortedBlogs[1];
+   const blog = sortedBlogs[0];
    return (
       <div className='w-full inline-block'>
          <article className='flex flex-col items-start justify-end mx-5 sm:mx-10 relative h-[60vh] sm:h-[85vh]'>
